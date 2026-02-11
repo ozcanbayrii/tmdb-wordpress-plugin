@@ -372,8 +372,21 @@ class TMDB_OzcanWork_Settings_Page {
                 <input type="hidden" name="tmdb_language" value="<?php echo esc_attr(get_option('tmdb_language')); ?>">
                 
                 <div class="tmdb-card settings-card" style="max-width: 600px; border-top: 4px solid #f39c12;">
-                    <h2>Aktivasyon</h2>
+                    <h2><?php echo tmdb__('Aktivasyon', 'Activation'); ?></h2>
                     <p><?php echo tmdb__('Eklenti özelliklerini açmak için lisansınızı girin.', 'Enter your license key to unlock plugin features.'); ?></p>
+                    
+                    <!-- LİSANS ALMA KUTUSU -->
+                    <?php if ( ! $is_licensed ) : ?>
+                    <div style="background: #fdf2ce; border-left: 4px solid #f39c12; padding: 15px; margin-bottom: 20px;">
+                        <p style="margin: 0 0 10px 0;">
+                            <strong><?php echo tmdb__('Lisans anahtarınız yok mu?', 'Don\'t have a license key?'); ?></strong><br>
+                            <?php echo tmdb__('Sitemizden saniyeler içinde ücretsiz lisans oluşturabilirsiniz.', 'You can generate a free license in seconds from our site.'); ?>
+                        </p>
+                        <a href="https://www.key.ozcan.work/tmdb/" target="_blank" class="button button-secondary">
+                            🔑 <?php echo tmdb__('Lisans Anahtarı Al', 'Get License Key'); ?> &rarr;
+                        </a>
+                    </div>
+                    <?php endif; ?>
                     
                     <div class="form-group" style="background:#f9f9f9; padding:20px; border:1px solid #ddd; border-radius:5px;">
                         <label for="tmdb_license_key" style="font-size:1.1em; margin-bottom:10px; display:block;"><strong>License Key</strong> <?php echo $status_html; ?></label>
