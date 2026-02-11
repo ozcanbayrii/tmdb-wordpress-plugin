@@ -19,8 +19,6 @@
 *   **ACF Entegrasyonu:** Çekilen verileri otomatik olarak özel alanlara (custom fields) işler.
 *   **Görsel Yükleyici:** Film posterlerini sunucunuza indirir ve yazının "Öne Çıkan Görseli" olarak ayarlar.
 *   **Shortcode Sistemi:** Özel "Tomb Raider" stili kart tasarımlarını istediğiniz yere ekleyin.
-*   **Özel Şablon Desteği:** `tmdb-archive.php` şablonu ile filmleri özel bir arşiv sayfasında listeleyin.
-*   **Admin Dark Mode:** Göz yormayan, şık bir yönetim paneli deneyimi.
 
 ### 🚀 Kurulum
 
@@ -59,8 +57,6 @@ Yeni yazı ekleme ekranında (Gutenberg veya Klasik Editör), **"🎬 TMDB İçe
 *   **ACF Integration:** Automatically maps fetched data to Advanced Custom Fields.
 *   **Image Sideloading:** Downloads movie posters to your server and sets them as the "Featured Image".
 *   **Shortcode System:** Insert special "Tomb Raider" style cards anywhere on your site.
-*   **Custom Template Support:** Includes a `tmdb-archive.php` page template to list all movies in a grid layout.
-*   **Admin Dark Mode:** A sleek, eye-friendly admin panel experience.
 
 ### 🚀 Installation
 
@@ -97,4 +93,5 @@ To display a card in a custom location:
 
 **Developer:** OzcanWork  
 **Website:** [ozcan.work](https://ozcan.work)
+
 
