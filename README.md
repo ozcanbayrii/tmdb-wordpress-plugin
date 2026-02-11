@@ -45,9 +45,6 @@ Yeni yazı ekleme ekranında (Gutenberg veya Klasik Editör), **"🎬 TMDB İçe
 [tmdb_card id="66732" type="tv"]
 ```
 
-#### 4. Arşiv Sayfası
-Yeni bir sayfa oluşturun ve Sayfa Özellikleri > Şablon kısmından **"TMDB Arşivi"** seçeneğini seçin. Bu sayfa tüm eklenen filmleri listeleyecektir.
-
 ---
 
 ## 🇬🇧 English Documentation
@@ -88,9 +85,6 @@ To display a card in a custom location:
 [tmdb_card id="66732" type="tv"]
 ```
 
-#### 4. Archive Page
-Create a new page and select **"TMDB Archive"** from Page Attributes > Template. This page will list all added movies.
-
 ---
 
 ### 🛠 Tech Stack
@@ -103,3 +97,4 @@ Create a new page and select **"TMDB Archive"** from Page Attributes > Template.
 
 **Developer:** OzcanWork  
 **Website:** [ozcan.work](https://ozcan.work)
+
